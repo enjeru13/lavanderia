@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <section className="bg-gradient-to-b from-white to-pink-300 py-18">
         <div>
-          <div className="px-16">
+          <div>
             <header className="text-center mb-4 px-6">
               <h1 className="text-6xl font-bold mb-4 text-pink-400">
                 Lavandería Gisselle
@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center text-center">
-                <p className="text-lg text-gray-800 leading-relaxed">
+                <p className="text-lg text-gray-800 leading-relaxed px-18">
                   En nuestra lavandería, ofrecemos servicios rápidos y de
                   calidad para mantener tu ropa siempre limpia y en excelente
                   estado. Con atención personalizada, nos encargamos de cada
