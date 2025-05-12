@@ -30,9 +30,12 @@ const About = () => {
               </p>
               <div className="mt-8">
                 <a
+                  href="https://wa.me/584247368942?text=¡Hola!%20Me%20gustaría%20más%20información%20sobre%20sus%20servicios."
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-pink-500 text-white font-bold px-8 py-3 rounded-full shadow-lg transition-transform duration-300 hover:scale-105"
                 >
-                  Contactanos
+                  Contáctanos
                 </a>
               </div>
             </div>
@@ -40,7 +43,7 @@ const About = () => {
         </div>
 
         <div className="mt-25">
-          <h2 className="text-4xl font-bold text-center pt-16 pb-10 text-gray-800">
+          <h2 className="text-4xl font-bold text-center pt-16 pb-8 text-gray-800">
             Ubicación
           </h2>
           <div className="w-full max-w-2xl mx-auto">
@@ -55,6 +58,10 @@ const About = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+            <h2 className="text-center mt-8 font-bold text-xl">
+              Av Ferrero Tamayo, Edificio Yoly, Local 02, San Cristóbal, Estado
+              Táchira., San Cristóbal, Venezuela
+            </h2>
           </div>
         </div>
       </div>

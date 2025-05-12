@@ -1,4 +1,3 @@
-import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import Services from "./Services";
 import About from "./About";
