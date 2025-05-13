@@ -1,4 +1,3 @@
-import React from "react";
 import { FaWater, FaBroom } from "react-icons/fa";
 import { BiSolidWasher } from "react-icons/bi";
 import { TbIroning2Filled } from "react-icons/tb";
@@ -6,7 +5,7 @@ import { IoIosRocket } from "react-icons/io";
 
 const Services = () => {
   return (
-    <section className="bg-pink-300 py-20">
+    <section id="servicios" className="bg-pink-300 py-20">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-16 text-gray-800">
           Nuestros Servicios

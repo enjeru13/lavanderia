@@ -4,7 +4,7 @@ import About from "./About";
 
 const Home = () => {
   return (
-    <div>
+    <div id="inicio">
       <section className="bg-gradient-to-b from-white to-pink-300 py-18">
         <div>
           <div>
@@ -22,7 +22,6 @@ const Home = () => {
                 <div className="w-full max-w-lg">
                   <DotLottieReact
                     src="https://lottie.host/044ff77d-7b83-4338-aa2e-9e10fec7df25/hxfZwSYWTl.lottie"
-                    loop
                     autoplay
                     width={500}
                     height={400}

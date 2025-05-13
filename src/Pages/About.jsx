@@ -3,7 +3,7 @@ import lavanderia from "../assets/lavanderia1.jpg";
 
 const About = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-pink-300 to-white">
+    <section id="nosotros" className="py-20 bg-gradient-to-b from-pink-300 to-white">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-18 text-gray-800">
           ¿Quiénes Somos?

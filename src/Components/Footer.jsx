@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer id="contacto" className="bg-gray-900 text-white py-8">
       <div className="w-full px-6">
         <div className="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center sm:text-left">
           <div>
@@ -18,17 +18,17 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-3">Enlaces rápidos</h3>
             <ul className="text-sm">
               <li>
-                <a href="/services" className="hover:text-pink-500 transition">
+                <a href="#servicios" className="hover:text-pink-500 transition">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="/about" className="hover:text-pink-500 transition">
+                <a href="#nosotros" className="hover:text-pink-500 transition">
                   Sobre Nosotros
                 </a>
               </li>
               <li>
-                <a href="/contact" className="hover:text-pink-500 transition">
+                <a href="#contacto" className="hover:text-pink-500 transition">
                   Contacto
                 </a>
               </li>
