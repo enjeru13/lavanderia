@@ -1,9 +1,21 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { FaWater, FaBroom } from "react-icons/fa";
 import { BiSolidWasher } from "react-icons/bi";
 import { TbIroning2Filled } from "react-icons/tb";
 import { IoIosRocket } from "react-icons/io";
 
 const Services = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,       // Duración de la animación en milisegundos
+      easing: "ease-in-out",
+      once: true           // Animar solo una vez al hacer scroll
+    });
+  }, []);
+
   return (
     <section id="servicios" className="bg-pink-300 py-20">
       <div className="container mx-auto px-4">
@@ -13,7 +25,10 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {/* Card 1 */}
-          <div className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div
+            className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-up"
+          >
             <BiSolidWasher className="text-5xl text-pink-400 mb-2" />
             <h3 className="text-xl font-semibold text-gray-800">
               Lavado y Secado por Kg
@@ -23,8 +38,13 @@ const Services = () => {
               eficiencia.
             </p>
           </div>
+
           {/* Card 2 */}
-          <div className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div
+            className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <TbIroning2Filled className="text-5xl text-pink-400 mb-2" />
             <h3 className="text-xl font-semibold text-gray-800">
               Lavado y Planchado por Piezas
@@ -34,8 +54,13 @@ const Services = () => {
               prendas delicadas.
             </p>
           </div>
+
           {/* Card 3 */}
-          <div className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div
+            className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <IoIosRocket className="text-5xl text-pink-400 mb-2" />
             <h3 className="text-xl font-semibold text-gray-800">
               Servicio Express
@@ -49,7 +74,10 @@ const Services = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
           {/* Card 4 */}
-          <div className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div
+            className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-up"
+          >
             <FaWater className="text-5xl text-pink-400 mb-2" />
             <h3 className="text-xl font-semibold text-gray-800">
               Servicio de Desmanche
@@ -59,8 +87,13 @@ const Services = () => {
               nuevas.
             </p>
           </div>
+
           {/* Card 5 */}
-          <div className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <div
+            className="bg-white shadow-lg rounded-lg border border-pink-400 flex flex-col justify-center items-center h-48 w-full p-4 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <FaBroom className="text-5xl text-pink-400 mb-2" />
             <h3 className="text-xl font-semibold text-gray-800">
               Teñido de Prendas

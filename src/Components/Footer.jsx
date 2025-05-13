@@ -55,7 +55,7 @@ const Footer = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://wa.me/584247368942?text=¡Hola!%20Me%20gustaría%20más%20información%20sobre%20sus%20servicios."
+                href="https://wa.me/584247368942?text=¡Hola!%20Me%20gustaría%20más%20información%20sobre%20sus%20servicios%20de%20lavanderia."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pink-500 text-2xl hover:text-pink-400 transition"
@@ -63,7 +63,7 @@ const Footer = () => {
                 <FaWhatsapp />
               </a>
               <a
-                href="mailto:angeleduardocegarrataborda@gmail.com"
+                href="mailto:lavanderiagisselle10@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-pink-500 text-2xl hover:text-pink-400 transition"

@@ -12,8 +12,8 @@ const Home = () => {
               <h1 className="text-6xl font-bold mb-4 text-pink-400">
                 Lavandería Gisselle
               </h1>
-              <p className="text-lg text-gray-800">
-                ¡El verdadero significado del lavado automático!
+              <p className="text-lg font-bold text-gray-800">
+                ¡El verdadero lavado automático!
               </p>
             </header>
 
@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-center text-center">
-                <p className="text-lg text-gray-800 leading-relaxed px-18">
+                <p className="text-lg font-bold text-gray-800 leading-relaxed px-18">
                   En nuestra lavandería, ofrecemos servicios rápidos y de
                   calidad para mantener tu ropa siempre limpia y en excelente
                   estado. Con atención personalizada, nos encargamos de cada

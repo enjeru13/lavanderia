@@ -1,9 +1,11 @@
-import React from "react";
 import lavanderia from "../assets/lavanderia1.jpg";
 
 const About = () => {
   return (
-    <section id="nosotros" className="py-20 bg-gradient-to-b from-pink-300 to-white">
+    <section
+      id="nosotros"
+      className="py-20 bg-gradient-to-b from-pink-300 to-white"
+    >
       <div className="container mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-18 text-gray-800">
           ¿Quiénes Somos?
@@ -19,7 +21,7 @@ const About = () => {
           </div>
           <div className="flex flex-col justify-center">
             <div className="max-w-xl mx-auto text-center">
-              <p className="text-lg leading-relaxed text-gray-800 mb-6">
+              <p className="text-lg font-bold leading-relaxed text-gray-800 mb-6">
                 En Lavandería Gisselle contamos con más de 27 años ofreciendo
                 servicios de alta calidad. Nos enorgullece brindar atención
                 personalizada y soluciones innovadoras para el cuidado de tus
